@@ -85,7 +85,7 @@ body{
     align-items: center;
     border-radius: 6%;
     border-color: rgba(255, 255, 255, 0.332);
-    color: rgba(239, 238, 238, 0.92);
+    color: rgb(239, 238, 238);
     background-color: transparent;
     position: relative;
     transition: 0.5s;
