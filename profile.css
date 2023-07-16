@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    height: 100vh;
+    /* width: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background:linear-gradient(45deg,rgb(59, 229, 235),rgb(228, 239, 75),rgb(171, 80, 38)) ;
+}
+.heading{
+    align-items: center;
+}
+
+.blurcard{  
+
+    display: flex;
+    flex-direction: column;
+    /* width: 356px;  */
+    margin: 5%;
+    /* background: rgba(225,225,225, 0.75); */
+    /* border: 1px solid  rgb(0, 0, 0); */ 
+    backdrop-filter: blur(5.5px);
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 2vh 10vh ;
+    border-radius: 4%;
+    -webkit-backdrop-filter: blur(5.5px);
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.207);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.204);
+    border: 1px solid rgba(255,255,255,0.34);
+    
+}
+.profile{
+    height: 180px;
+    width: 280px;
+    align-items: center;
+    animation: move 3s ease-in infinite;
+
+}
+
+
+
+/* @keyframes move{
+
+    0%{
+        transform:  rotateY(0deg);
+    }
+    50%{
+        transform:  rotateX(180deg);
+    }
+    100%{
+        transform:  rotateX(360deg);
+    }
+} */
+
+
+
+.contain{
+    height: 100px;
+    width: 290px;
+    /* width: 100px; */
+    color: rgba(255, 255, 255, 0.623);
+    text-align:center;
+    /* padding: 0%; */
+    /* margin: 0%; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button{
+    height:;
+}
+.fol{
+    height: 40px;
+    width: 134.7px;
+    font-weight:lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    border-radius: 6%;
+    border-color: rgba(255, 255, 255, 0.332);
+    color: rgba(239, 238, 238, 0.92);
+    background-color: transparent;
+    position: relative;
+    transition: 0.5s;
+    /* backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px); */
+    /* box-shadow: 0 4px 5px rgba(35, 35, 35, 0.25); */
+
+}
+
+.fol:hover{
+    color: rgba(0, 0, 0, 0.528);
+    box-shadow: 0px 0px 4px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.341);
+}
